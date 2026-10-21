@@ -1,0 +1,44 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Large datasets
+data/**/train/
+data/**/test/
+
+# Generated model files
+*.h5
+*.keras
+*.ckpt
+saved_model/
+models/
+
+# Local configuration
+.env
+.env.*
